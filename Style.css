@@ -1,0 +1,184 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+.nav_container{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+.logo{
+    text-transform: capitalize;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+    color: white;
+    font-weight: 200;
+    /* background-color: aqua; */
+}
+.logo_back{
+    background-color: rgb(10, 244, 104);
+    min-width: 58px;
+    position: absolute;
+    top: 10;
+    left: 0;
+    color: rgb(10, 244, 104);
+    z-index: -1;
+}
+.nav_logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.menu{
+    background: black;
+    padding: 5px;
+    width: 100%;
+    justify-content: center;
+    
+}
+.menu ul{
+    list-style: none;
+    color: white;
+    margin: 15px auto;
+    text-align: right;
+   
+}
+.menu ul li{
+    padding: 5px;
+    list-style: none;
+    display: inline-block;
+    
+    
+}
+.menu ul li a{
+    padding-right: 20px;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+.menu ul li a i{
+    color: white;
+}
+.active{
+    text-decoration: underline;
+}
+.menu ul li a:hover{
+    text-decoration: underline;
+    cursor:pointer;
+
+}
+
+button{
+    background: rgb(248, 246, 248);
+    color: black;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+button:hover{
+    color: white;
+    background-color: black;
+    text-decoration: none;
+}
+
+
+.background{
+    background-image: url(Image/hero-bg.jpg);
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.right-img{
+    margin-top: 50px;
+}
+h2{
+    margin-top: 80px ;
+    text-align: center;
+}
+.section{
+    color: white;
+    font-size: large;
+    margin-left: 100px;
+    padding-top: 200px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px ;
+}
+.wrapper{
+    
+    
+    margin: auto;
+    height: 400px;
+    width: 350px;
+    padding: 10px;
+    border: 2px solid black;
+}
+.content_info{
+    background: rgb(247, 249, 247);
+    width: 100%;
+}
+.card_div{
+    margin:0;
+    padding: 0;
+}
+.content_icon{
+    margin: 0 auto;
+    text-align: center;
+}
+.content_icon img{
+    width: 200px;
+    height: 200px;
+}
+.btn{
+    background: black;
+    color: white;
+}
+.btn:hover{
+    background: white;
+    color: black;
+}
+.about{
+    text-align: center;
+}
+.pr{
+    text-align: center;
+}
+.download{
+    display: flex;
+    background: rgb(114, 135, 243);
+    margin: 50px 0;
+    padding: 80px 50px;
+    color: white;
+}
+.download1 h3 p{
+    color: white;
+}
+.download2{
+    padding-top: 0%;
+    padding-bottom: 0;
+    margin-left: 150px;
+}
+#time{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    background: rgb(25, 28, 217);
+    gap: 40px;
+    color: white;
+    font-size: large;
+    font-weight: bolder;
+}
+.circle{
+    margin: 50px 0;
+    position: relative;
+    font-weight: 500px;
+}
